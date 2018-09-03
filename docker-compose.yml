@@ -1,0 +1,15 @@
+version: '3'
+services:
+  dbServer:
+    image: mysql:latest
+    restart: always
+    volumes:
+      - /Users/alejandro/Documents/mysql/mysql-storage:/var/lib/mysql
+#    ports:
+#      - "3306:3306"
+
+  app:
+    restart: always
+    build: .
+    ports:
+      - "8085:8080"

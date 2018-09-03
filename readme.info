@@ -1,0 +1,7 @@
+Docker-compose
+docker-compose up -d (detached mode)
+docker-compose down
+docker-compose restart
+docker-compose restart redis
+docker-compose scale redis=3
+docker-compose ps

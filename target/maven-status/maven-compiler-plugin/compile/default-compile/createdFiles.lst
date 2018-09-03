@@ -1,0 +1,4 @@
+com/example/controllers/HelloController.class
+com/example/entities/CustomerRepository.class
+com/example/entities/Customer.class
+com/example/MysqlThymeleafApplication.class
